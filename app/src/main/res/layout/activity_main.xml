@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:padding="50dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/firebaseAuthantication"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/fui_ic_phone_white_24dp"
+        android:text="@string/sign_in_with_phone"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/googleFirebaseAuthantication"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/fui_ic_googleg_color_24dp"
+        android:text="@string/sign_in_with_google"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/emailFirebaseAuthantication"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawableTint="@color/white"
+        android:text="@string/sign_in_with_email"/>
+
+</LinearLayout>

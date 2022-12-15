@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "248136759736",
+    "project_id": "superapp-da53a",
+    "storage_bucket": "superapp-da53a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248136759736:android:a79435172752d65df5374d",
+        "android_client_info": {
+          "package_name": "com.example.supperapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248136759736-5s5hpi7f83l3ic869cfc7vt624pf34rv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIK5q8dqoooejLuo6le5Klz5Vlh_IwF4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248136759736-5s5hpi7f83l3ic869cfc7vt624pf34rv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
